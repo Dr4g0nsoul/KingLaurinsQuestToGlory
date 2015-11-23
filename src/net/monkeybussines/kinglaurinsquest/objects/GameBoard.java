@@ -13,6 +13,6 @@ import java.util.ArrayList;
  */
 public class GameBoard {
     
-    private ArrayList<BoardField> fields = new ArrayList<>();
+    private ArrayList<Field> fields = new ArrayList<>();
     
 }
