@@ -15,9 +15,12 @@ public class ResourceCard extends Card {
         super(name, description);
     }
 
+    /**
+     * ResourceCards have no Effect
+     * @param p Useless
+     */
     @Override
-    public void effect() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void effect(Player p) {
     }
     
 }

@@ -28,5 +28,5 @@ public abstract class Card {
         return description;
     }
     
-    public abstract void effect();
+    public abstract void effect(Player p);
 }

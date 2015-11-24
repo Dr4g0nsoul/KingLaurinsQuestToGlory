@@ -16,8 +16,7 @@ public class EquipmentCard extends Card {
     }
 
     @Override
-    public void effect() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void effect(Player p) {
     }
     
 }

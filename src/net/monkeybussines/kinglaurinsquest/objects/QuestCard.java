@@ -15,8 +15,12 @@ public class QuestCard extends Card{
         super(name, description);
     }
 
+    /**
+     * Raise Players completed quests by 1 if completed
+     * @param p The Player
+     */
     @Override
-    public void effect() {
+    public void effect(Player p) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
